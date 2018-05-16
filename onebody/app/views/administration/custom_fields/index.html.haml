@@ -1,0 +1,10 @@
+- @title = t('admin.custom_fields.heading')
+
+%p= t('admin.custom_fields.intro')
+
+.custom-field-tabs
+  - @tabs.each do |tab|
+    = render partial: 'tab', locals: { tab: tab }
+
+.push-down
+  = link_to t('admin.custom_field_tabs.new.button'), new_administration_custom_field_tab_path, class: 'btn btn-success'

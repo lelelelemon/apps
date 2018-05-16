@@ -1,0 +1,44 @@
+.group-description {
+  margin-bottom: 15px;
+}
+
+.group-avatar {
+  margin-bottom: 15px;
+}
+
+.group-list {
+  td .info {
+    font-style: none;
+    color: gray;
+  }
+  .hidden-group {
+    display: none;
+  }
+  .label {
+    margin-right: 5px;
+  }
+  .name {
+    width: 50%;
+  }
+}
+
+.group.error {
+  td {
+    background-color: #fcc;
+  }
+}
+
+.content-header h1 small .btn {
+  @extend .btn-xs;
+  margin-bottom: 4px;
+}
+
+.select-a-group {
+  .category, i.fa {
+    color: #999;
+  }
+  .name, .category {
+    margin-left: 16px;
+
+  }
+}
